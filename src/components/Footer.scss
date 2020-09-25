@@ -1,0 +1,10 @@
+@import '../styles/shared.scss';
+
+.footer {
+  height: $footer-height;
+  background-color: #3898d4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
