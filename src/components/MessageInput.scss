@@ -1,0 +1,26 @@
+@import '../styles/shared.scss';
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input__input {
+  width: 100%;
+  margin-right: $spacing;
+  border: 2px solid #2e76a4;
+  border-radius: 5px;
+  padding: $spacing;
+  font-size: 18px;
+  resize: none;
+  height: calc(#{$footer-height} - 2 * #{$spacing});
+}
+
+.message-input__send-btn {
+  border-radius: 5px;
+  background-color: #fb876e;
+  color: #fff;
+  border: none;
+  padding: 0 25px;
+  cursor: pointer;
+}
