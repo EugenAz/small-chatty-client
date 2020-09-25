@@ -3,11 +3,17 @@
 .message {
   border: 1px solid #d4dade;
   border-radius: 5px;
-  max-width: 420px;
+  max-width: 240px;
   padding: $spacing * 2;
   background-color: #fff;
   margin-top: $spacing;
   line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .message {
+    max-width: 420px;
+  }
 }
 
 .message__author {
@@ -32,6 +38,7 @@
 .message--own {
   background-color: #fcf6c5;
   margin-top: $spacing * 2;
+  margin-bottom: $spacing;
   align-self: flex-end;
 }
 
