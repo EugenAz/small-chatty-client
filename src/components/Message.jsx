@@ -8,7 +8,7 @@ export const Message = memo(({ author, text, timestamp, own = false }) => {
 
   return (
     <div className={cn}>
-      {author &&
+      {!own &&
         <span className="message__author">{ author }</span>
       }
       <span className="message__text">{ text }</span>
